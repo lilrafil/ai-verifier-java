@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
  */
 public enum VerificationStatus {
     /**
-     * High confidence (≥0.8) - Answer passes verification
+     * High confidence (&gt;=0.8) - Answer passes verification
      */
     @SerializedName("Allow")
     ALLOW,
@@ -19,7 +19,7 @@ public enum VerificationStatus {
     FLAG,
 
     /**
-     * Low confidence (<0.5) - Cannot verify
+     * Low confidence (&lt;0.5) - Cannot verify
      */
     @SerializedName("Abstain")
     ABSTAIN
